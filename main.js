@@ -29,9 +29,7 @@ const CONFIG = {
   ]
 };
 
-/* ---------- Products (placeholder list — replace with the real stock) ----------
-   image: put a file path like "images/cement.jpg" to show a real photo.
-          Leave "" to show the grey placeholder box. */
+/* ---------- Products (placeholder list — replace with the real stock) ---------- */
 const CATEGORIES = [
   "Steel & Metal",
   "Cement & Masonry",
@@ -45,56 +43,57 @@ const CATEGORIES = [
 
 const PRODUCTS = [
   // Steel & Metal
-  { name: "Reinforcement Bars (Y8–Y20)", category: "Steel & Metal", desc: "High-tensile steel bars for slabs, beams and columns.", image: "" },
-  { name: "Angle Iron", category: "Steel & Metal", desc: "Strong angle sections for frames, gates and supports.", image: "" },
-  { name: "Square & Round Tubes", category: "Steel & Metal", desc: "Hollow sections for grills, fences and structures.", image: "" },
-  { name: "Flat Bars", category: "Steel & Metal", desc: "Versatile flat steel for fabrication and repairs.", image: "" },
-  { name: "Welded Mesh (BRC)", category: "Steel & Metal", desc: "Reinforcement mesh for floors and slabs.", image: "" },
-  { name: "Binding Wire", category: "Steel & Metal", desc: "Soft annealed wire for tying reinforcement.", image: "" },
+  { name: "Reinforcement Bars (Y8–Y20)", category: "Steel & Metal", desc: "High-tensile steel bars for slabs, beams and columns.", image: "images/Reinforcement Bars (Y8–Y20).jpg" },
+  { name: "Angle Iron", category: "Steel & Metal", desc: "Strong angle sections for frames, gates and supports.", image: "images/Angle Iron.jpg" },
+  { name: "Square & Round Tubes", category: "Steel & Metal", desc: "Hollow sections for grills, fences and structures.", image: "images/Square & Round Tubes.jpg" },
+  { name: "Flat Bars", category: "Steel & Metal", desc: "Versatile flat steel for fabrication and repairs.", image: "images/Flat Bars.jpg" },
+  { name: "Welded Mesh (BRC)", category: "Steel & Metal", desc: "Reinforcement mesh for floors and slabs.", image: "images/Welded Mesh (BRC).jpg" },
+  { name: "Binding Wire", category: "Steel & Metal", desc: "Soft annealed wire for tying reinforcement.", image: "images/Binding Wire.jpg" },
 
   // Cement & Masonry
-  { name: "Portland Cement", category: "Cement & Masonry", desc: "Quality cement for concrete, plaster and blockwork.", image: "" },
-  { name: "Tile Adhesive & Grout", category: "Cement & Masonry", desc: "Strong bonding for floor and wall tiles.", image: "" },
-  { name: "Waterproofing Compound", category: "Cement & Masonry", desc: "Protects roofs, tanks and basements from moisture.", image: "" },
-  { name: "Damp-Proof Membrane", category: "Cement & Masonry", desc: "Heavy-duty sheeting laid under floor slabs.", image: "" },
+  { name: "Portland Cement", category: "Cement & Masonry", desc: "Quality cement for concrete, plaster and blockwork.", image: "images/Portland Cement.jpg" },
+  { name: "Tile Adhesive & Grout", category: "Cement & Masonry", desc: "Strong bonding for floor and wall tiles.", image: "images/Tile Adhesive & Grout.jpg" },
+  { name: "Floor & wall tiles", category: "Cement & Masonry", desc: "Floor and wall tiles in a range of styles and finishes.", image: "images/Floor & wall tiles.jpg" },
+  { name: "Waterproofing Compound", category: "Cement & Masonry", desc: "Protects roofs, tanks and basements from moisture.", image: "images/Waterproofing Compound.jpg" },
+  { name: "Damp-Proof Membrane", category: "Cement & Masonry", desc: "Heavy-duty sheeting laid under floor slabs.", image: "images/Damp-Proof Membrane.jpg" },
 
   // Roofing
-  { name: "Corrugated Iron Sheets", category: "Roofing", desc: "Durable galvanised sheets in several gauges.", image: "" },
-  { name: "Colour-Coated Roofing Sheets", category: "Roofing", desc: "Long-lasting coated sheets in popular colours.", image: "" },
-  { name: "Ridge Caps", category: "Roofing", desc: "Finishing caps for a neat, weatherproof ridge.", image: "" },
-  { name: "Roofing Nails & Screws", category: "Roofing", desc: "Fixings with washers for secure roof sheets.", image: "" },
+  { name: "Corrugated Iron Sheets", category: "Roofing", desc: "Durable galvanised sheets in several gauges.", image: "images/Corrugated Iron Sheets.jpg" },
+  { name: "Colour-Coated Roofing Sheets", category: "Roofing", desc: "Long-lasting coated sheets in popular colours.", image: "images/Colour-Coated Roofing Sheets.jpg" },
+  { name: "Ridge Caps", category: "Roofing", desc: "Finishing caps for a neat, weatherproof ridge.", image: "images/Ridge Caps.jpg" },
+  { name: "Roofing Nails & Screws", category: "Roofing", desc: "Fixings with washers for secure roof sheets.", image: "images/Roofing Nails & Screws.jpg" },
 
   // Plastics & Plumbing
-  { name: "PVC Pipes", category: "Plastics & Plumbing", desc: "Pressure and drainage pipes in all common sizes.", image: "" },
-  { name: "Water Tanks", category: "Plastics & Plumbing", desc: "Strong plastic storage tanks for homes and sites.", image: "" },
-  { name: "Pipe Fittings", category: "Plastics & Plumbing", desc: "Elbows, tees, sockets, valves and connectors.", image: "" },
-  { name: "Taps & Mixers", category: "Plastics & Plumbing", desc: "Reliable taps for kitchens, bathrooms and yards.", image: "" },
-  { name: "Plastic Gutters", category: "Plastics & Plumbing", desc: "Rainwater gutters with brackets and joiners.", image: "" },
+  { name: "PVC Pipes", category: "Plastics & Plumbing", desc: "Pressure and drainage pipes in all common sizes.", image: "images/PVC Pipes.jpg" },
+  { name: "Water Tanks", category: "Plastics & Plumbing", desc: "Strong plastic storage tanks for homes and sites.", image: "images/Water Tanks.jpg" },
+  { name: "Pipe Fittings", category: "Plastics & Plumbing", desc: "Elbows, tees, sockets, valves and connectors.", image: "images/Pipe Fittings.jpg" },
+  { name: "Taps & Mixers", category: "Plastics & Plumbing", desc: "Reliable taps for kitchens, bathrooms and yards.", image: "images/Taps & Mixers.jpg" },
+  { name: "Plastic Gutters", category: "Plastics & Plumbing", desc: "Rainwater gutters with brackets and joiners.", image: "images/Plastic Gutters.jpg" },
 
   // Paints & Finishes
-  { name: "Emulsion Paint", category: "Paints & Finishes", desc: "Smooth interior and exterior wall paint.", image: "" },
-  { name: "Gloss & Enamel Paint", category: "Paints & Finishes", desc: "Tough finish for metal, wood and doors.", image: "" },
-  { name: "Roof Paint", category: "Paints & Finishes", desc: "Weather-resistant coating for iron sheets.", image: "" },
-  { name: "Wood Varnish", category: "Paints & Finishes", desc: "Protects and enhances timber surfaces.", image: "" },
-  { name: "Primer & Undercoat", category: "Paints & Finishes", desc: "Base coats for better paint coverage and grip.", image: "" },
-  { name: "Brushes & Rollers", category: "Paints & Finishes", desc: "Painting tools for a clean professional finish.", image: "" },
+  { name: "Emulsion Paint", category: "Paints & Finishes", desc: "Smooth interior and exterior wall paint.", image: "images/Emulsion Paint.jpg" },
+  { name: "Gloss & Enamel Paint", category: "Paints & Finishes", desc: "Tough finish for metal, wood and doors.", image: "images/Gloss & Enamel Paint.jpg" },
+  { name: "Roof Paint", category: "Paints & Finishes", desc: "Weather-resistant coating for iron sheets.", image: "images/Roof Paint.jpg" },
+  { name: "Wood Varnish", category: "Paints & Finishes", desc: "Protects and enhances timber surfaces.", image: "images/Wood Varnish.jpg" },
+  { name: "Primer & Undercoat", category: "Paints & Finishes", desc: "Base coats for better paint coverage and grip.", image: "images/Primer & Undercoat.jpg" },
+  { name: "Brushes & Rollers", category: "Paints & Finishes", desc: "Painting tools for a clean professional finish.", image: "images/Brushes & Rollers.jpg" },
 
   // Timber & Boards
-  { name: "Construction Timber", category: "Timber & Boards", desc: "Seasoned timber for roofing and framing.", image: "" },
-  { name: "Plywood", category: "Timber & Boards", desc: "Strong boards for furniture, ceilings and formwork.", image: "" },
-  { name: "Hardboard & MDF", category: "Timber & Boards", desc: "Smooth boards for cabinets and partitions.", image: "" },
+  { name: "Construction Timber", category: "Timber & Boards", desc: "Seasoned timber for roofing and framing.", image: "images/Construction Timber.jpg" },
+  { name: "Plywood", category: "Timber & Boards", desc: "Strong boards for furniture, ceilings and formwork.", image: "images/Plywood.jpg" },
+  { name: "Hardboard & MDF", category: "Timber & Boards", desc: "Smooth boards for cabinets and partitions.", image: "images/Hardboard & MDF.jpg" },
 
   // Electrical
-  { name: "Electrical Cables", category: "Electrical", desc: "Copper cables for house and site wiring.", image: "" },
-  { name: "Conduit Pipes", category: "Electrical", desc: "Protective piping for concealed wiring.", image: "" },
-  { name: "Switches & Sockets", category: "Electrical", desc: "Safe, durable wiring accessories.", image: "" },
-  { name: "Bulbs & Fittings", category: "Electrical", desc: "Energy-saving lighting for every room.", image: "" },
+  { name: "Electrical Cables", category: "Electrical", desc: "Copper cables for house and site wiring.", image: "images/Electrical Cables.jpg" },
+  { name: "Conduit Pipes", category: "Electrical", desc: "Protective piping for concealed wiring.", image: "images/Conduit Pipes.jpg" },
+  { name: "Switches & Sockets", category: "Electrical", desc: "Safe, durable wiring accessories.", image: "images/Switches & Sockets.jpg" },
+  { name: "Bulbs & Fittings", category: "Electrical", desc: "Energy-saving lighting for every room.", image: "images/Bulbs & Fittings.jpg" },
 
   // Tools & Fixings
-  { name: "Nails & Screws", category: "Tools & Fixings", desc: "Wide range of sizes for wood and metal.", image: "" },
-  { name: "Hand Tools", category: "Tools & Fixings", desc: "Hammers, saws, spades, trowels and more.", image: "" },
-  { name: "Wheelbarrows", category: "Tools & Fixings", desc: "Heavy-duty barrows for building sites.", image: "" },
-  { name: "Padlocks & Hinges", category: "Tools & Fixings", desc: "Security hardware for doors and gates.", image: "" }
+  { name: "Nails & Screws", category: "Tools & Fixings", desc: "Wide range of sizes for wood and metal.", image: "images/Nails & Screws.jpg" },
+  { name: "Hand Tools", category: "Tools & Fixings", desc: "Hammers, saws, spades, trowels and more.", image: "images/Hand Tools.jpg" },
+  { name: "Wheelbarrows", category: "Tools & Fixings", desc: "Heavy-duty barrows for building sites.", image: "images/Wheelbarrows.jpg" },
+  { name: "Padlocks & Hinges", category: "Tools & Fixings", desc: "Security hardware for doors and gates.", image: "images/Padlocks & Hinges.jpg" }
 ];
 
 /* ==========================================================
